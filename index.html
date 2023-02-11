@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="has-navbar-fixed-top">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -27,15 +27,15 @@
   </head>
   <body>
     <nav
-      class="navbar is-primary"
+      class="navbar is-primary is-fixed-top"
       role="navigation"
       aria-label="main navigation"
     >
       <div class="navbar-brand">
         <!-- navbar items, navbar burger... -->
-        <a class="navbar-item"> Home </a>
-        <a class="navbar-item"> Home </a>
-        <a class="navbar-item"> Home </a>
+        <a class="navbar-item"> Sobre mim </a>
+        <a class="navbar-item"> Skills</a>
+        <a class="navbar-item"> Contato</a>
       </div>
     </nav>
     <section class="section">
@@ -75,10 +75,7 @@
             desenvolver seu próximo aplicativo incrível, estou aqui!
           </p>
           <div class="buttons">
-            <button
-              class="button is-danger"
-              onclick="window.location.href='./docs/cv.pdf'"
-            >
+            <button class="button is-danger" id="downloadButton">
               Download cv.pdf
             </button>
           </div>
