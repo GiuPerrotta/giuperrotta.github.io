@@ -1,86 +1,558 @@
 <!DOCTYPE html>
-<html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Linktree Giuliano Perrotta</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Raleway&display=swap" rel="stylesheet">
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Giuliano Perrotta</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <script src="/index.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar is-primary"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="navbar-brand">
+        <!-- navbar items, navbar burger... -->
+        <a class="navbar-item"> Home </a>
+        <a class="navbar-item"> Home </a>
+        <a class="navbar-item"> Home </a>
+      </div>
+    </nav>
+    <section class="section">
+      <div class="container">
+        <div>
+          <figure class="image is-128x128">
+            <img src="/img/profile-pic.png" class="is-rounded" />
+          </figure>
+        </div>
+        <h1 class="title">Giuliano Perrotta</h1>
+        <p class="subtitle">
+          Desenvolvedor Front End.<strong> Sempre aprendendo</strong>!
+        </p>
+        <!-- sobre mim -->
+        <div class="content has-text-justified">
+          <p class="subtitle has-background-danger has-text-white">Sobre mim</p>
+          <p>
+            E aí pessoal, já ouviram falar daquele cara que tem um currículo
+            mais eclético que um cardápio de um restaurante chinês? Pois é, esse
+            cara sou eu! Graduado em Direito, especializado em contratos e
+            processo civil, mas decidi que era hora de dar uma guinada na minha
+            carreira e adentrar o mundo dos bits e bytes. E vocês sabem o
+            melhor? Eu também tenho conhecimentos sólidos no mercado financeiro,
+            especialmente em derivativos futuros e commodities. Parece que sou
+            um cara de muitos talentos!
+          </p>
+          <p>
+            Além disso, tive a aventura de ser dono de uma fábrica de sorvete e
+            um pub, porque quem não gosta de um desafio, não é mesmo?
+          </p>
+          <p>
+            E para finalizar, estou aprendendo a falar a língua dos
+            programadores, estudando HTML5, CSS, JavaScript, React e outras
+            tecnologias incríveis. Então, estou em transição de carreira,
+            procurando novos horizontes e aventuras. Se precisarem de alguém
+            para negociar contratos em inglês com um sorriso no rosto ou para
+            desenvolver seu próximo aplicativo incrível, estou aqui!
+          </p>
+          <div class="buttons">
+            <button
+              class="button is-danger"
+              onclick="window.location.href='./docs/cv.pdf'"
+            >
+              Download cv.pdf
+            </button>
+          </div>
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M708FEVKW1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+          <div>
+            <figure class="image is-48x48">
+              <a href="http://wa.me/5519988849993" target="_blank">
+                <img
+                  src="./img/icones/whatsapp-svgrepo-com (1).svg"
+                  alt="whatsapp-svgrepo-com"
+                  class="is-rounded"
+                />
+              </a>
+            </figure>
+          </div>
+        </div>
+        <!-- habilidades -->
+        <div class="content has-text-justified">
+          <p class="subtitle has-background-primary has-text-white">
+            Habilidades
+          </p>
+          <p>
+            Profissional altamente capacitado e comprometido, tenho orgulho em
+            afirmar que possuo uma ampla gama de soft skills que são altamente
+            valorizadas no mercado de tecnologia. Minha capacidade de
+            comunicação eficaz, tanto oral quanto escrita, me permite transmitir
+            ideias e informações de maneira clara e concisa, garantindo assim a
+            compreensão efetiva pelos meus colegas e superiores. Além disso, sou
+            um colaborador dedicado e habilidoso no trabalho em equipe, sempre
+            buscando alcançar objetivos comuns de maneira eficiente e efetiva.
+          </p>
+          <p>
+            Sou também uma pessoa capaz de resolver problemas de maneira
+            criativa e eficiente, o que me torna uma valiosa adição a qualquer
+            equipe. Além disso, tenho habilidades de liderança sólidas, o que me
+            permite motivar e guiar equipes em projetos complexos.
+          </p>
 
-        gtag('config', 'G-M708FEVKW1');
-    </script>
+          <p>
+            Adaptabilidade é uma de minhas maiores forças, e sou capaz de me
+            adaptar rapidamente a mudanças e trabalhar eficientemente em um
+            ambiente de alta pressão. Além disso, sou habilidoso na gestão do
+            tempo, garantindo sempre o cumprimento de prazos e objetivos. Sou
+            uma pessoa apaixonada por aprendizado e sempre busco adquirir novos
+            conhecimentos e habilidades. Além disso, sou uma pessoa empática,
+            capaz de entender e se relacionar bem com as necessidades e pontos
+            de vista de outras pessoas. Por fim, posso dizer que sou uma pessoa
+            flexível e profissionalmente apresentável, capaz de me adaptar a
+            diferentes situações e me comunicar de maneira confiante e efetiva.
+          </p>
+          <p>
+            Tenho certeza de que essas soft skills são valiosas para o sucesso
+            em qualquer equipe e projeto, e estou animado em trazê-las para o
+            seu time.
+          </p>
 
+          <p class="has-background-warning">
+            Aqui são algumas tecnologias que estou estudando:
+          </p>
+          <!-- primeira linha -->
+          <div>
+            <figure class="image is-256x256">
+              <img src="./img/Component 1.svg" />
+            </figure>
+          </div>
+          <p class="has-background-warning">
+            Alguns certificados. <strong> Em contínuo Aclive!</strong>
+          </p>
+          <p>
+            Meu conhecimento esta em constante evolução éssa é uma máxima que
+            carrego. Preferi estudar essas tecnologias mas estou aguardando a
+            oportunidade para me aprofundar nas que forem mais requisitadas
+          </p>
+          <div class="columns has-text-centered">
+            <!-- primeira coluna primeira linha -->
+            <div class="column">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="./docs/SCRUM.jpeg" alt="SCRUM" />
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-48x48">
+                        <img
+                          src="./img/icones/scrumstudy-1.svg"
+                          alt="dcrum icone"
+                        />
+                      </figure>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-5">SCRUM</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- segunda coluna primeira linha -->
+            <div class="column">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="./docs/ef14.jpeg" alt="English Certificate" />
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-48x48">
+                        <img
+                          src="./img/icones/english-svgrepo-com.svg"
+                          alt="en icon"
+                        />
+                      </figure>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-5">Advanced English</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- terceira coluna primeira linha -->
+            <div class="column">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="./docs/html5.jpg" alt="HTML5" />
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-48x48">
+                        <img src="./img/icones/html5 1.svg" alt="html icon " />
+                      </figure>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-5">HTML5</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- quarta coluna primeira linha -->
+            <div class="column">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="./docs/css3.jpg" alt="css3" />
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-48x48">
+                        <img src="./img/icones/css3 1.svg" alt="css icon" />
+                      </figure>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-5">CSS3</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- segunda linha certificados -->
+          <div class="columns has-text-centered">
+            <!-- primeira coluna segunda linha -->
+            <div class="column">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="./docs/js1.jpg" alt="JavaScript" />
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-48x48">
+                        <img
+                          src="./img/icones/javascript 1.svg"
+                          alt="js icon"
+                        />
+                      </figure>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-5">JavaScript</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- segunda coluna segunda linha -->
+            <div class="column">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="./docs/certgihub.jpeg" alt="SCRUM" />
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-48x48">
+                        <img
+                          src="./img/icones/github 2.svg"
+                          alt="github icon"
+                        />
+                      </figure>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-5">Git GitHub</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- terceira coluna segunda linha -->
+            <div class="column">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img
+                      src="./img/coming-soon-hour-glass-g752e66c9b_1280.png"
+                      alt="Em Breve"
+                    />
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-48x48">
+                        <img
+                          src="./img/icones/figma-svgrepo-com.svg"
+                          alt="Figma icon"
+                        />
+                      </figure>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-5">Figma</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- quarta coluna segunda linha -->
+            <div class="column">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img
+                      src="./img/coming-soon-hour-glass-g752e66c9b_1280.png"
+                      alt="Em Breve"
+                    />
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-48x48">
+                        <img
+                          src="./img/icones/studying-process-svgrepo-com.svg"
+                          alt="soon icon"
+                        />
+                      </figure>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-5">Em breve</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content has-text-justified">
+          <p class="subtitle has-background-danger has-text-white">Projetos</p>
+          <p>
+            Seja bem-vindo ao meu portfolio! Aqui você pode conhecer alguns dos
+            meus projetos de estudo em desenvolvimento de sites. Cada um deles
+            foi criado com muito carinho e dedicação, e espero que você se
+            divirta conhecendo um pouco mais sobre eles. Vamos lá?
+          </p>
 
-    <link rel="stylesheet" href="css/style.css">
+          <!-- portifolio -->
+          <div class="columns has-text-centered">
+            <!-- portifolio linha 1 coluna 1 -->
+            <div class="column">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img
+                      src="./img/underconstruction.png"
+                      alt="under construction"
+                    />
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-48x48">
+                        <img
+                          src="./img/icones/idea-svgrepo-com.svg"
+                          alt="em breve"
+                        />
+                      </figure>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-5">Em Breve</p>
+                    </div>
+                  </div>
 
-</head>
-<body>
-    <div class="profile">
-        <img src="img/perrotta.jpeg" alt="foto-giuliano" class="foto-principal">
-        <h1>Giuliano Perrotta</h1>
-        <h2>Front-end Developer</h2>
-    </div>
-    <ul class="social">
-        <li>
-            <a href="https://www.linkedin.com/in/giuliano-perrotta-21299578/">
-                <img src="img/linkedin.svg" alt="Linkedin">                
-            </a>
-        </li>
-        <li>
-            <a href="https://github.com/GiuPerrotta">
-                <img src="img/github.svg" alt="Github">               
-            </a>
-        </li>
-        <li>
-            <a href="https://www.instagram.com/giu_perrotta/">
-                <img src="img/insta.svg" alt="Instagram">
-            </a>
-        </li>
-        <li>
-            <a href="http://wa.me/5519988849993">
-                <img src="img/whatsapp.png">
-            </a>
-        </li>
-    </ul>
-    <ul class=caixas-texto>
-        <li>
-            HTML 
-        </li>
-        <li>
-            CSS 
-        </li>
-        <li>
-            JavaScript
-        </li>
-        <li>
-            ReactJS
-        </li>
-    </ul>
-    <ul class="transicao">
-        <li>
-            Advogado Senior em transição de carreira.
-            <span>Especialista em Direito Civil, Processual Civil, Contratos</span>
+                  <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus nec iaculis mauris.
+                    <br />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portifolio linha 1 coluna 2 -->
+            <div class="column">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="./img/underconstruction.png" alt="SCRUM" />
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-48x48">
+                        <img
+                          src="./img/icones/idea-svgrepo-com.svg"
+                          alt="Em Breve"
+                        />
+                      </figure>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-5">Em Breve</p>
+                    </div>
+                  </div>
 
-        </li>    
-         <li>   
-            Empreendedor no ramo de restaurantes e produção em larga escala.
-            <span>Proprietário adminitstrador de fabrica de sorvetes atuando em três cidades entre 2006 e 2009</span>
-            <span>Proprietário administrador do Celestia Pub atuando em todas as atividades inerentes ao negócio</span>
-        </li>    
-        <li>    
-            Analista e Operador Financeiro.
-            <span>Trader, Analista Fundamentalista, Analista Gráfico, especialista em estrutura de Opções de Derivativos Futuros na Bolsa de Valores</span>
-        </li>
-    </ul>
-    
-</body>
+                  <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus nec iaculis mauris.
+                    <br />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portifolio linha 1 coluna 3 -->
+            <div class="column">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="./img/underconstruction.png" alt="Em Breve" />
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-48x48">
+                        <img
+                          src="./img/icones/idea-svgrepo-com.svg"
+                          alt="Em Breve"
+                        />
+                      </figure>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-5">Em Breve</p>
+                    </div>
+                  </div>
+
+                  <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus nec iaculis mauris.
+                    <br />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portifolio linha 1 coluna 4 -->
+            <div class="column">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="./img/underconstruction.png" alt="Em Breve" />
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-48x48">
+                        <img
+                          src="./img/icones/idea-svgrepo-com.svg"
+                          alt="Em Breve"
+                        />
+                      </figure>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-5">Em breve</p>
+                    </div>
+                  </div>
+
+                  <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus nec iaculis mauris.
+                    <br />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content has-text-justified">
+          <p class="subtitle has-background-primary has-text-white">Contato</p>
+          <p>
+            Olá, se você está procurando por alguém que seja apaixonado por
+            tecnologia e tenha um toque de humor, então você veio ao lugar
+            certo!
+          </p>
+          <p>
+            Eu sou esse alguém. Se você precisa de ajuda com algum projeto
+            tecnológico, ou simplesmente quer trocar uma ideia sobre as últimas
+            novidades da área, entre em contato comigo. Eu amo o que faço e
+            estou sempre ansioso para conversar com outras pessoas que
+            compartilham da mesma paixão. Não deixe a formalidade te impedir de
+            me enviar uma mensagem. Eu sou uma pessoa descontraída e sempre
+            estou disposto a fazer novas amizades. Então, se você quiser ter uma
+            conversa interessante ou precisar de ajuda com algum projeto, basta
+            me enviar uma mensagem. Eu vou adorar ouvir de você!
+          </p>
+        </div>
+
+        <div>
+          <ul>
+            <li>
+              <figure class="image is-48x48">
+                <a href="http://wa.me/5519988849993" target="_blank">
+                  <img
+                    src="./img/icones/whatsapp-svgrepo-com (1).svg"
+                    alt="whatsapp-svgrepo-com"
+                    class="is-rounded"
+                  />
+                </a>
+              </figure>
+            </li>
+            <li>
+              <figure class="image is-48x48">
+                <a
+                  href="https://www.linkedin.com/in/giuliano-perrotta-21299578/"
+                  target="_blank"
+                >
+                  <img
+                    src="./img/icones/linkedin-svgrepo-com.svg"
+                    alt="linkedin"
+                    class="is-rounded"
+                  />
+                </a>
+              </figure>
+            </li>
+            <li>
+              <figure class="image is-48x48">
+                <a href="https://github.com/GiuPerrotta" target="_blank">
+                  <img
+                    src="./img/icones/github 2.svg"
+                    alt="github"
+                    class="is-rounded"
+                  />
+                </a>
+              </figure>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer class="footer has-background-warning">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Giuliano Perrotta</strong> - <strong>Fone:</strong> +55 19
+          98884-9993 - <strong>E-mail:</strong> Giuperrotta@gmail.com
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
