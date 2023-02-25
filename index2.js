@@ -8,13 +8,9 @@
   });
  */
 document
-  .getElementById("downloadButton")
-  .addEventListener("click", function () {
-    window.open("https://giuperrotta.github.io/docs/cv.pdf");
-  });
-
-/* document
   .getElementById("downloadButton2")
   .addEventListener("click", function () {
     window.open("https://giuperrotta.github.io/docs/encv.pdf");
-  }); */
+  });
+
+
